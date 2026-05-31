@@ -96,6 +96,7 @@ ollama pull nomic-embed-text
 streamlit run app.py
 ```
 
+
 The app will open at `http://localhost:8501`
 
 ---
