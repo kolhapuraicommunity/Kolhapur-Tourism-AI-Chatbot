@@ -1,0 +1,115 @@
+# 🚀 Complete Git Guide for Kolhapur AI Community Contributors
+Hey team! To help everyone learn real-world industry standards, we are upgrading our workflow. Our `main` branch is now reserved for the final, stable production code. All of our active building, testing, and collaborative enhancements will happen on the `dev` (development) branch.
+
+Here is the exact step-by-step breakdown of how to sync your code, customize the project, and submit your features to get featured!
+
+
+### Step 1: Clone the Repo and Switch to the Dev Branch
+Run this once on your laptop to download the project and enter the development environment.
+
+# 1. Clone the repository down to your computer
+git clone https://github.com/kolhapuraicommunity/Kolhapur-Tourism-AI-Chatbot.git
+cd Kolhapur-Tourism-AI-Chatbot
+
+# 2. Switch your terminal directly to the dev branch
+```
+git checkout dev
+```
+
+* **Command 2:** Pull the absolute latest changes down from GitHub to your laptop.
+  ```bash
+git pull origin dev
+
+```
+
+> **Why do this?** If you don't pull the latest changes first, your code might conflict with a teammate's code later, causing messy errors.
+
+---
+
+### Step 2: Create Your Own Isolated Sandbox (Feature Branch)
+
+Never write code directly on `dev` or `main`. Instead, create a temporary branch that acts as your personal scratchpad.
+
+* **Command:** Create and immediately switch into a new branch. (Replace `yourname` with your actual name and use a hyphen).
+```bash
+
+```
+
+
+git checkout -b feature/yourname-customization
+
+```
+  > **Why do this?** The `-b` flag tells Git to create a brand new branch. This keeps your experimental features completely hidden from everyone else until they are ready.
+
+---
+
+### Step 3: Add Your Customizations inside Your Folder
+Open VS Code and check the `README.md` file in the main directory. We have listed a set of incredible system enhancements there that you can implement to level up this chatbot.
+
+* Inside the project, look for the folder named `students/`.
+* Find your personal folder (or create one named after yourself if you haven't already, e.g., `students/yourname/`).
+* Place all of your script files, modifications, and experimental configurations **only** inside your own folder.
+  > **Why do this?** This completely prevents two students from modifying the same file at the same time, ensuring nobody accidentally overwrites anyone else's hard work.
+
+---
+
+### Step 4: Take a Snapshot of Your Work (Stage & Commit)
+Once your customized application runs successfully on your local laptop, it's time to lock it in and save your progress.
+
+* **Command 1:** Stage all modified and new files so Git knows to track them.
+  ```bash
+git add .
+
+```
+
+* **Command 2:** Permanently save your changes on your machine with a clear description of what you customized.
+```bash
+
+```
+
+
+
+git commit -m "Feat: Add yourname chatbot customization and enhancements"
+
+```
+  > **Why do this?** `git add .` gathers your files up, and `git commit` takes a permanent snapshot of them. Always write a meaningful commit message so the team knows what features you added!
+
+---
+
+### Step 5: Upload Your Branch to GitHub
+Right now, your new branch and your changes only exist on your personal laptop. You need to push it online so the community can see it.
+
+* **Command:** Push your unique branch up to the remote GitHub repository.
+  ```bash
+git push origin feature/yourname-customization
+
+```
+
+> **Why do this?** This safely uploads your personal branch to GitHub without touching the community's primary codebase.
+
+---
+
+### Step 6: Submit a Pull Request (PR) for Review
+
+This asks the maintainer to review your code and combine it into the main development build.
+
+1. Open our repository link in your web browser: `[https://github.com/kolhapuraicommunity/Kolhapur-Tourism-AI-Chatbot](https://github.com/kolhapuraicommunity/Kolhapur-Tourism-AI-Chatbot)`
+2. You will see a yellow banner pop up at the top that says **"Compare & pull request"**. Click it!
+3. **CRUCIAL SETTING:** Look at the branch dropdown options near the top left.
+* Change the **base:** dropdown from `main` to **`dev`**.
+* Leave the **compare:** dropdown set to your personal branch (`feature/yourname-customization`).
+
+
+4. Type a short note summarizing your customization, then click the green **Create pull request** button.
+
+---
+
+### 🚀 Deploy, Share, & Get Featured!
+
+Once your Pull Request is submitted and integrated, it's time to show the world what you built:
+
+1. **Commit $\rightarrow$ Build $\rightarrow$ Deploy** your customized app to get your live application URL.
+2. Share your live URL on **LinkedIn**!
+3. Make sure to tag **#KolhapurAICommunity** in your post.
+
+The **best and most unique customization** will be officially featured on the Kolhapur AI Community social handles! Let's keep building and shipping! 🚀
